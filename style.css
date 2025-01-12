@@ -426,7 +426,7 @@ footer p {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #6a0dad;
+  background-color: #5b0b94;
   color: #ffffff;
   padding: 10px 15px;
   border-radius: 50px;
@@ -435,10 +435,6 @@ footer p {
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease;
-}
-
-.back-to-top-button:hover {
-  background-color: #4a0c7a;
 }
 
 .back-to-top-button-visible {
