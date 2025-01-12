@@ -317,8 +317,7 @@ a:hover {
 .card-img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  max-width: 280px;
 }
 
 /* Flip Cards */
@@ -456,5 +455,37 @@ footer p {
   .grid-container-context {
     grid-template-columns: repeat(4, 1fr);
     justify-items: stretch;
+  }
+}
+
+@media (max-width: 320px) {
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  #introduction h2,
+  #derivatives h2,
+  #experiments h2,
+  #contexts h2,
+  #public-perception h2,
+  #process h2 {
+    font-size: 1.5rem;
+  }
+  #introduction h3,
+  #derivatives h3,
+  #contexts h3,
+  #experiments h3,
+  #public-perception h3,
+  #process h3 {
+    font-size: 1rem;
+  }
+
+  #introduction p {
+    font-size: 0.9rem;
   }
 }
