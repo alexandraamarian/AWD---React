@@ -432,6 +432,7 @@ footer p {
   border-radius: 50px;
   text-decoration: none;
   font-size: 1em;
+  font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
