@@ -437,10 +437,6 @@ footer p {
   transition: opacity 0.3s ease;
 }
 
-.back-to-top-button-visible {
-  opacity: 1;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   h1,
