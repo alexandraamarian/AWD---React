@@ -237,14 +237,6 @@
         </div>
       </section>
 
-      <!-- Back to Top Button -->
-      <a
-        href="#what-is-react"
-        class="back-to-top-button"
-        aria-label="Back to top"
-        >Back to Top</a
-      >
-    </main>
 
     <!-- Footer -->
     <footer>
@@ -258,26 +250,5 @@
         </a>
       </p>
     </footer>
-
-    <!-- JavaScript for Section Transitions -->
-    <script>
-      window.addEventListener("scroll", function () {
-        const backToTopButton = document.querySelector(".back-to-top-button");
-        const sections = document.querySelectorAll("section");
-
-        if (window.scrollY > 100) {
-          backToTopButton.style.opacity = "1";
-        } else {
-          backToTopButton.style.opacity = "0";
-        }
-
-        sections.forEach((section) => {
-          const sectionTop = section.getBoundingClientRect().top;
-          if (sectionTop < window.innerHeight - 100) {
-            section.classList.add("visible");
-          }
-        });
-      });
-    </script>
   </body>
 </html>
