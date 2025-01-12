@@ -93,7 +93,7 @@ a:hover {
 #introduction h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #f9f9f9;
+  color: white;
 }
 
 #introduction p {
@@ -101,7 +101,7 @@ a:hover {
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;
-  color: #f1f1f1;
+  color: white;
 }
 
 /* Derivatives Section with Background */
@@ -134,7 +134,7 @@ a:hover {
 #derivatives h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #f9f9f9;
+  color: white;
 }
 
 #derivatives p {
@@ -174,7 +174,7 @@ a:hover {
 #public-perception h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #f9f9f9;
+  color: white;
 }
 
 #public-perception p {
@@ -195,6 +195,26 @@ a:hover {
 .content-center {
   z-index: 1;
   max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.content-center-box {
+  z-index: 1;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for better readability */
+  border-radius: 10px;
+}
+
+.content-center-perception {
+  z-index: 1;
   padding: 20px;
   background: rgba(
     0,
